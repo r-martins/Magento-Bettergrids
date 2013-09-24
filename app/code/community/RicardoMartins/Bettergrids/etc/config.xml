@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <RicardoMartins_Bettergrids>
+      <version>0.1.0</version>
+    </RicardoMartins_Bettergrids>
+  </modules>
+  <global>
+    <blocks>
+      <adminhtml>
+        <rewrite><!-- Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Crosssell -->
+          <catalog_product_edit_tab_crosssell>RicardoMartins_Bettergrids_Block_Adminhtml_Catalog_Product_Edit_Tab_Crosssell</catalog_product_edit_tab_crosssell>
+          <catalog_product_edit_tab_upsell>RicardoMartins_Bettergrids_Block_Adminhtml_Catalog_Product_Edit_Tab_Upsell</catalog_product_edit_tab_upsell>
+          <catalog_product_edit_tab_related>RicardoMartins_Bettergrids_Block_Adminhtml_Catalog_Product_Edit_Tab_Related</catalog_product_edit_tab_related>
+        </rewrite>
+      </adminhtml>
+    </blocks>
+  </global>
+</config> 
